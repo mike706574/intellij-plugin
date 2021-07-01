@@ -2,6 +2,6 @@
 
 # Mike's Plugin Changelog
 
-## [0.0.1]
+## [Unreleased]
 ### Added
 - Everything
