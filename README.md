@@ -1,4 +1,6 @@
-# IntelliJ Platform Plugin Template
+# intellij-plugin
+
+Mike's IntelliJ plugin.
 
 [![official JetBrains project](https://jb.gg/badges/official.svg)][jb:confluence-on-gh]
 [![Twitter Follow](https://img.shields.io/twitter/follow/JBPlatform?style=flat)][jb:twitter]
@@ -8,11 +10,7 @@
 > **TL;DR:** Click the <kbd>Use this template</kbd> button and clone it in IntelliJ IDEA.
 
 <!-- Plugin description -->
-**IntelliJ Platform Plugin Template** is a repository that provides a pure boilerplate template to make it easier to create a new plugin project (check the [Creating a repository from a template][gh:template] article).
-
-The main goal of this template is to speed up the setup phase of plugin development for both new and experienced developers by preconfiguring the project scaffold and CI, linking to the proper documentation pages, and keeping everything organized.
-
-[gh:template]: https://help.github.com/en/enterprise/2.20/user/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template
+Mike's IntelliJ plugin.
 <!-- Plugin description end -->
 
 If you're still not quite sure what this is all about, read our introduction: [What is the IntelliJ Platform?][docs:intro]
@@ -180,7 +178,7 @@ Within the default project structure, there is a `.run` directory provided conta
 
 
 > **TIP:** You can find the logs from the running task in the `idea.log` tab.
-> 
+>
 > ![Run/Debug configuration logs][file:run-logs.png]
 
 
@@ -202,7 +200,7 @@ In the `.github/workflows` directory, you can find definitions for the following
     - Publishes the plugin to the Marketplace using the provided `PUBLISH_TOKEN`.
     - Sets publish channel depending on the plugin version, i.e. `1.0.0-beta` -> `beta` channel.
     - Patches the Changelog and commits.
-- [Template Cleanup](.github/workflows/template-cleanup.yml) 
+- [Template Cleanup](.github/workflows/template-cleanup.yml)
     - Triggered once on the `push` event when a new template-based repository has been created.
     - Overrides the scaffold with files from the `.github/template-cleanup` directory.
     - Overrides JetBrains-specific sentences or package names with ones specific to the target repository.
