@@ -1,0 +1,22 @@
+<idea-plugin>
+    <id>fun.mike.intellij-plugin</id>
+    <name>Mike's Plugin</name>
+    <vendor email="mike706574@gmail.com" url="https://github.com/mike706574/intellij-plugin">mike706574</vendor>
+
+    <description>This is Mike's plugin. It is great. I like it.</description>
+
+    <!-- Product and plugin compatibility requirements -->
+    <!-- https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <depends>com.intellij.modules.java</depends>
+
+    <actions>
+        <action id="fun.mike.intellij.plugin.RecordBeanAction"
+                class="fun.mike.intellij.plugin.RecordBeanAction"
+                text="Record Bean..."
+                description="A record-esque bean.">
+            <add-to-group group-id="GenerateGroup" anchor="after" relative-to-action="JavaGenerateGroup2"/>
+        </action>
+    </actions>
+</idea-plugin>
